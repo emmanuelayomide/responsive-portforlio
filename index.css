@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*.slantfontfamily{
+
+
+    font-family: "Playwrite BE WAL", cursive;
+   
+  }
+.monserant{
+      font-family: "Montserrat", sans-serif;
+   
+   
+    
+    }
+*/
+.section1{
+  background-color: #e4f9f5;
+  text-align: center;
+  position: relative;
+}
+.section1 >img.cloud{
+  width: 300px;
+  position: absolute;
+  top:-1%;
+  right:20%;
+}
+.section1 .myname{
+padding-top: 140px;
+font-family: "Playwrite BE WAL", cursive;
+font-size: 45px;
+color:  #66bfbf;
+
+}
+.section1 .mywork{
+  padding-top:60px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color:  #66bfbf;
+  }
+  #underline{
+    text-decoration: underline;
+  }
+  .section1 >img.cloud1{
+    width: 300px;
+    position: absolute;
+ left: 80px;
+  }
+  .section1 > img.mountain{
+    width: 300px;
+    margin-top:5px;
+  }
+  .section2{
+    text-align: center;
+  }
+  .section2 .profilepicture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+     margin-top: 80px;
+  }
+  .section2 h1{
+    color: #66bfbf;
+    margin-top: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+   
+  }
+  .section2 p{
+    font-size:20px;
+    margin-top: 60px;
+    font-family: "Montserrat", sans-serif;
+  }
+  #myskilss{
+    text-align: center;
+
+  }
+  #myskilss >h1{
+    color: #66bfbf;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+  }
+  .container{
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  grid-template-rows: 0.2fr  1fr;
+  gap: 2rem;
+  width: 50%;
+  margin-top: 30px;
+
+  }
+  
+ .heading{
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+ }
+ .started{
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+ }
+.section4{
+  text-align: center;
+
+}
+.section4 > h1{
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  font-weight: 600;
+}
+.section4 > p.love{
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  color: #66bfbf;
+  font-weight: bolder;
+}
+
+.talkmore{
+  font-size: 25px;
+  margin-top: 40px;
+
+}
+button{
+  color: #fff;
+  background-color: #66bfbf;
+  padding:10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-family: "Montserrat", sans-serif;
+}
+button:hover{
+  background-color: #439b9b;
+}
+.section5{
+background-color: #439b9b;
+
+
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container2 > li{
+  list-style-type:none;
+}
+.container2 a{
+  color: #0d7b7b;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.container2 a:hover{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.lastparagraph{
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+ padding-bottom: 20px;
+}
+@media (max-width:700px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .heading{
+    
+    margin-top:15px;
+  
+   }
+   .started{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+  
+   }
+   .section4 > p.love{
+    font-size:15px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+    color: #66bfbf;
+    font-weight: bolder;
+  }
+  .container2{
+   
+    gap:5px;
+  
+  }
+  .section1 >img.cloud1{
+    width: 300px;
+    position: absolute;
+ left: 80px;
+  }
+  } 
+  @media (max-width:382px) {
+    .section1 >img.cloud1{
+      display: none;
+    }
+    .section1 > img.mountain{
+      width: 200px;
+      margin-top:5px;
+    }
+    .cattyping{
+      width: 150px;
+    }
+    .container2 a{
+      color: #0d7b7b;
+      text-decoration: none;
+      font-size:12px;
+      font-family: "Montserrat", sans-serif;
+      
+    }
+    .section1 .mywork{
+      padding-top:60px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      color:  #66bfbf;
+      }
+  }
